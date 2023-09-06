@@ -20,8 +20,7 @@ if (any(install_package == FALSE)) {
 invisible(lapply(packages, library, character.only = TRUE))
 
 ##### set up directories ######
-main <- case_when(Sys.getenv("USERNAME") == "jgole" ~ "C:/Users/jgole/Dropbox/Portfolio",
-                  Sys.getenv("USER") == "janoledan" ~ "/Users/janoledan/Dropbox/Portfolio")
+main <- #<DIRECTORY HERE>
 plots <- paste(main, "wiki-name-change", sep = "/")
 
 ### link to geographic name changes
